@@ -546,12 +546,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/xiaomi/land/proprietary/bin/gx_fpcmd:system/bin/gx_fpcmd \
     vendor/xiaomi/land/proprietary/bin/nl_listener:system/bin/nl_listener \
-    vendor/xiaomi/land/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/egl/libESXEGL_adreno.so:system/vendor/lib/egl/libESXEGL_adreno.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/egl/libESXGLESv1_CM_adreno.so:system/vendor/lib/egl/libESXGLESv1_CM_adreno.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/egl/libESXGLESv2_adreno.so:system/vendor/lib/egl/libESXGLESv2_adreno.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/egl/libRBEGL_adreno.so:system/vendor/lib/egl/libRBEGL_adreno.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
     vendor/xiaomi/land/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libactuator_bu64291gwz.so:system/vendor/lib/libactuator_bu64291gwz.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libactuator_dw9718s.so:system/vendor/lib/libactuator_dw9718s.so \
@@ -1268,13 +1262,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/xiaomi/land/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/egl/libESXEGL_adreno.so:system/vendor/lib64/egl/libESXEGL_adreno.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/egl/libESXGLESv1_CM_adreno.so:system/vendor/lib64/egl/libESXGLESv1_CM_adreno.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/egl/libESXGLESv2_adreno.so:system/vendor/lib64/egl/libESXGLESv2_adreno.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/egl/libRBEGL_adreno.so:system/vendor/lib64/egl/libRBEGL_adreno.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib64/egl/libRBGLESv1_CM_adreno.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/egl/libRBGLESv2_adreno.so:system/vendor/lib64/egl/libRBGLESv2_adreno.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
@@ -1327,3 +1314,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/etc/camera/s5k5e8_chromatix.xml:system/etc/camera/s5k5e8_chromatix.xml \
     vendor/xiaomi/land/proprietary/etc/camera/sunny_ov5670_f5670bq_chromatix.xml:system/etc/camera/sunny_ov5670_f5670bq_chromatix.xml \
     vendor/xiaomi/land/proprietary/etc/camera/sunny_s5k3l8_f3l8yam_chromatix.xml:system/etc/camera/sunny_s5k3l8_f3l8yam_chromatix.xml \
+    vendor/xiaomi/land/proprietary/etc/firmware/a506_zap.b00:system/etc/firmware/a506_zap.b00 \
+    vendor/xiaomi/land/proprietary/etc/firmware/a506_zap.b01:system/etc/firmware/a506_zap.b01 \
+    vendor/xiaomi/land/proprietary/etc/firmware/a506_zap.b02:system/etc/firmware/a506_zap.b02 \
+    vendor/xiaomi/land/proprietary/etc/firmware/a506_zap.elf:system/etc/firmware/a506_zap.elf \
+    vendor/xiaomi/land/proprietary/etc/firmware/a506_zap.mdt:system/etc/firmware/a506_zap.mdt \
+
